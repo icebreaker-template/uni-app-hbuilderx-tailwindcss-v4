@@ -2,7 +2,9 @@
   "name": "uni-app-hbuilderx-tailwindcss-v4",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "weapp-tw patch"
+  },
   "keywords": [],
   "author": "icebreaker <hi@sonofmagic.top>",
   "license": "MIT",
