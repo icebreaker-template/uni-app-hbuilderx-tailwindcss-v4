@@ -12,15 +12,15 @@ export default defineConfig(async () => {
       UnifiedViteWeappTailwindcssPlugin(
         {
           rem2rpx: true,
-		  tailwindcssPatcherOptions:{
-			  patch:{
-				  tailwindcss:{
-					  v4:{
-						  base:__dirname
-					  }
-				  }
-			  }
-		  }
+          tailwindcssPatcherOptions: {
+            patch: {
+              tailwindcss: {
+                v4: {
+                  base: __dirname
+                }
+              }
+            }
+          }
         }
       )
     ],
