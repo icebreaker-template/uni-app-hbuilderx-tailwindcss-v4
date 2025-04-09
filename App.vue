@@ -13,6 +13,6 @@
 </script>
 
 <style>
-	@import "weapp-tailwindcss";
+	@import "weapp-tailwindcss/css";
 	@source not "unpackage";
 </style>
