@@ -12,7 +12,6 @@
 	}
 </script>
 
-<style>
-	@import "weapp-tailwindcss/css";
-	@source not "unpackage";
+<style src="./main.css">
+
 </style>
