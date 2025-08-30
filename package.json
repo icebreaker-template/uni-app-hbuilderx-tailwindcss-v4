@@ -9,9 +9,9 @@
   "author": "icebreaker <hi@sonofmagic.top>",
   "license": "MIT",
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.11",
-    "tailwindcss": "^4.1.11",
-    "weapp-tailwindcss": "^4.1.10"
+    "@tailwindcss/postcss": "^4.1.12",
+    "tailwindcss": "^4.1.12",
+    "weapp-tailwindcss": "^4.2.6"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
