@@ -9,21 +9,14 @@ export default defineConfig({
         UnifiedViteWeappTailwindcssPlugin(
             {
                 rem2rpx: true,
-                tailwindcss: {
-                    v4: {
-                        base: __dirname,
-                        cssEntries: path.resolve(__dirname, 'main.css')
-                    }
-                }
+                cssEntries: path.resolve(__dirname, 'main.css')
             }
         )
     ],
     css: {
         postcss: {
             plugins: [
-                tailwindcss({
-                    base: __dirname
-                })
+                tailwindcss()
             ]
         }
     }
