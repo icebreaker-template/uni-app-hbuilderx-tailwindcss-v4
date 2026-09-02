@@ -17,9 +17,9 @@
 
 ## 使用前提
 
-- Node.js `20.19+`
+- Node.js `22.12+`（`weapp-tailwindcss@5.2.0` 起）
 - `pnpm`
-- `HBuilderX`
+- `HBuilderX 5.11+`
 
 ## 快速开始
 
@@ -31,11 +31,11 @@ pnpm install
 
 ## 模板说明
 
-- 安装依赖后会自动执行 `weapp-tw patch`
+- 生成模式不需要配置 `postinstall: "weapp-tw patch"`
 - 模板更偏 `HBuilderX` 工作流，命令行脚本较少
 - 如果你偏好 VS Code + 命令行开发，优先考虑 `uni-app-tailwindcss-v4`
 
 ## 相关文档
 
-- `weapp-tailwindcss`：<https://tw.icebreaker.top/>
+- `weapp-tailwindcss`：<https://tw.weapp.dev/>
 - `uni-app`：<https://uniapp.dcloud.net.cn/>

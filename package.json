@@ -5,22 +5,19 @@
   "author": "icebreaker <hi@sonofmagic.top>",
   "license": "MIT",
   "keywords": [],
-  "scripts": {
-    "postinstall": "weapp-tw patch"
-  },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.2.2",
-    "tailwindcss": "^4.2.2",
-    "weapp-tailwindcss": "^4.11.0"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "weapp-tailwindcss",
-      "@weapp-tailwindcss/merge"
-    ]
+    "tailwindcss": "^4.3.3",
+    "weapp-tailwindcss": "^5.5.0"
   },
   "dependencies": {
-    "@weapp-tailwindcss/merge": "^2.1.6"
+    "@weapp-core/escape": "^8.0.0",
+    "@weapp-tailwindcss/merge": "^2.2.3",
+    "@weapp-tailwindcss/runtime": "^0.1.6",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.6.0"
   },
-  "packageManager": "pnpm@10.33.0"
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "up:pkg": "pnpm up -rLi"
+  }
 }
